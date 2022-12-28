@@ -1,0 +1,16 @@
+@import '../_mixins/_font-face';
+
+// 100 - Extra Light or Ultra Light
+// 200 - Light or Thin
+// 300 - Book or Demi
+// 400 - Regular or Normal
+// 500 - Medium
+// 600 - Semibold or Demibold
+// 700 - Bold
+// 800 - Black or Extra Bold or Heavy
+// 900 - Extra Black or Fat or Ultra Blac
+
+// Open Sans
+@include font-face('OpenSans', '../fonts/OpenSans/Regular-OpenSans');
+@include font-face('OpenSans', '../fonts/OpenSans/Light-OpenSans', 300);
+@include font-face('OpenSans', '../fonts/OpenSans/Bold-OpenSans', 700);

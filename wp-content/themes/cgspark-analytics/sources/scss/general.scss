@@ -1,0 +1,14 @@
+@import '../../node_modules/normalize-scss/sass/normalize';
+@include normalize;
+
+@import './variables';
+@import '_includes/_fonts-init/_openSans';
+
+// Netbooks < 1200
+// Tabplet < 960
+
+// 1200 960 640 480 320
+
+body {
+  font-family: $openSans;
+}
